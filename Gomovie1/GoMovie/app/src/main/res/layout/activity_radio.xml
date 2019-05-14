@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--
+     RadioButton 要想实现多选一的效果必须放到RadioGroup 中,否则无法实现多选一的效果.
+     技巧:要面向RadioGroup 编程,不要面向RaidoButton 编程,否则将增加很大代码量
+      android:orientation="vertical":执行按钮组的方向,默认值是vertical.
+     RadioGroup的父类时LinearLayout,但方向的默认值不再是线性布局的水平方向了,而是改成了垂直方向.
+     -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="#cfa49a"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/backtomy"
+            android:layout_width="25dp"
+            android:background="#cfa49a"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:src="@drawable/back" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:gravity="center"
+            android:text=""
+            android:textColor="#FFF233"
+            android:textSize="25dp" >
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/radioGroup_gender"
+            android:layout_width="74dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radioButton_visa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_horizontal"
+                android:checked="false"
+                android:text="visa" />
+
+            <RadioButton
+                android:id="@+id/radioButton_master"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="200dp"
+                android:checked="false"
+                android:text="master" />
+            <RadioButton
+                android:id="@+id/radioButton_union"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="130dp"
+                android:checked="false"
+                android:text="union" />
+        </RadioGroup>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="516dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="257dp"
+                android:layout_height="170dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/card1" />
+
+            <ImageView
+                android:layout_width="257dp"
+                android:layout_height="170dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/card2" />
+            <ImageView
+                android:layout_width="257dp"
+                android:layout_height="170dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/card3" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

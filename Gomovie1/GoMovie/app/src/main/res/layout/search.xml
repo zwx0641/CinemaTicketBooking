@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f3f1eb"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#eee6df"
+                android:visibility="invisible">
+
+                <AutoCompleteTextView
+                    android:id="@+id/autotext"
+                    android:layout_width="250dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="45dp"
+                    android:layout_marginTop="15dp"
+                    android:completionHint="auto match"
+                    android:completionThreshold="1"
+                    android:hint="What's in your mind?"
+                    android:textColorHint="#BEB8BF" />
+
+                <ImageButton
+                    android:id="@+id/sousuo"
+                    android:layout_width="100dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toRightOf="@id/autotext"
+                    android:src="@drawable/sousuo" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="1dp"
+                android:orientation="horizontal">
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/autoVP"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"></android.support.v4.view.ViewPager>
+
+                <LinearLayout
+                    android:id="@+id/vpindicator"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:orientation="horizontal"></LinearLayout>
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:layout_marginTop="17dp">
+
+                <TextView
+                    android:id="@+id/recommend"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="0dp"
+                    android:background="#ffffff"
+                    android:text="On Now"
+                    android:textColor="#000"
+                    android:textSize="25dp" />
+
+                <ImageButton
+                    android:id="@+id/allmore"
+                    android:layout_width="100dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="330dp"
+                    android:layout_marginEnd="14dp"
+                    android:layout_marginBottom="0dp"
+                    android:background="#FFF"
+                    android:layout_toRightOf="@id/recommend"
+                    android:src="@drawable/go" />
+
+            </RelativeLayout>
+
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff">
+
+                <GridView
+                    android:id="@+id/gridView"
+                    android:layout_width="match_parent"
+                    android:layout_height="410dp"
+                    android:numColumns="3"></GridView>
+            </TableLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:layout_marginTop="17dp">
+
+                <TextView
+                    android:id="@+id/soon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="0dp"
+                    android:background="#ffffff"
+                    android:text="Coming soon"
+                    android:textColor="#000"
+                    android:textSize="25dp" />
+
+                <ImageButton
+                    android:id="@+id/allsoon"
+                    android:layout_width="100dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="250dp"
+                    android:layout_marginEnd="14dp"
+                    android:layout_marginBottom="0dp"
+                    android:layout_toRightOf="@id/soon"
+                    android:background="#FFF"
+                    android:src="@drawable/go" />
+
+            </RelativeLayout>
+
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff">
+
+                <GridView
+                    android:id="@+id/gridViewTwo"
+                    android:layout_width="match_parent"
+                    android:layout_height="410dp"
+                    android:numColumns="3"></GridView>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f3f1eb"
+    android:orientation="vertical"
+    tools:context="com.example.gomovie.PayActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="#cfa49a"
+        android:orientation="horizontal" >
+        <ImageButton
+            android:id="@+id/backtomy"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:src="@drawable/back" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:gravity="center"
+            android:text=""
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" >
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/card2"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/activity_radio"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:gravity="center"
+            android:orientation="vertical" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="20dp">
+
+        <RelativeLayout
+            android:layout_width="367dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="15dp">
+
+            <EditText
+                android:id="@+id/number"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center"
+                android:drawableStart="@drawable/loginicon"
+                android:hint=" card number"
+                android:inputType="number"
+                android:maxLength="21"
+                android:textColorHint="#696f6c"
+                android:textSize="18sp"
+                android:background="@drawable/edit_bg"/>
+
+            <EditText
+                android:id="@+id/date"
+                android:layout_width="180dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/number"
+                android:layout_gravity="center"
+                android:drawableStart="@drawable/passwordicon"
+                android:hint=" Expiration Date"
+                android:inputType="date"
+                android:textColorHint="#696f6c"
+                android:textSize="15sp"
+                android:background="@drawable/edit_bg"/>
+
+            <EditText
+                android:id="@+id/csc"
+                android:layout_width="180dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/number"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="center"
+                android:layout_alignRight="@+id/number"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="0dp"
+                android:layout_toRightOf="@id/date"
+                android:drawableStart="@drawable/passwordicon"
+                android:hint="CSC"
+                android:inputType="number"
+                android:maxLength="3"
+                android:textColorHint="#696f6c"
+                android:textSize="15sp"
+                android:background="@drawable/edit_bg"/>
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/loginbtn"
+            android:layout_width="148dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_selector"
+            android:gravity="center"
+            android:text="comfirm to book"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/register"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="#f3f1eb"
+            android:text="do not want to buy now?"
+            android:textColor="#cfa49a"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+</LinearLayout>

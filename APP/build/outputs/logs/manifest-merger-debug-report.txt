@@ -1,0 +1,129 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:2:1-80:12
+INJECTED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:2:1-80:12
+INJECTED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:2:1-80:12
+INJECTED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:2:1-80:12
+INJECTED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:2:1-80:12
+INJECTED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:2:1-80:12
+INJECTED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:2:1-80:12
+	package
+		ADDED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:3:5-34
+		INJECTED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml
+		INJECTED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml
+		INJECTED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml
+		INJECTED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:7:4-46
+INJECTED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:7:4-46
+INJECTED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:7:4-46
+INJECTED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:7:4-46
+INJECTED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:7:4-46
+	android:targetSdkVersion
+		ADDED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:7:14-43
+		INJECTED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml
+		INJECTED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml
+		ADDED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:7:4-46
+		INJECTED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:8:5-66
+	android:name
+		ADDED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:8:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:9:22-78
+application
+ADDED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:11:5-78:19
+	android:label
+		ADDED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:14:9-41
+	android:icon
+		ADDED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:13:9-36
+	android:allowBackup
+		ADDED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:15:9-40
+activity#com.example.gomovie.SplashActivity
+ADDED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:16:9-23:20
+	android:name
+		ADDED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:17:13-43
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:21:27-74
+activity#com.example.gomovie.MainActivity
+ADDED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:24:9-28:20
+	android:label
+		ADDED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:26:13-45
+	android:name
+		ADDED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:25:13-41
+activity#com.example.gomovie.LoginActivity
+ADDED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:29:9-32:20
+	android:label
+		ADDED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:31:13-57
+	android:name
+		ADDED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:30:13-42
+activity#com.example.gomovie.RegisterActivity
+ADDED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:33:9-36:20
+	android:label
+		ADDED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:35:13-60
+	android:name
+		ADDED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:34:13-45
+activity#com.example.gomovie.InfoActivity
+ADDED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:37:9-40:20
+	android:label
+		ADDED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:39:13-56
+	android:name
+		ADDED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:38:13-41
+activity#com.example.gomovie.UpdatepwActivity
+ADDED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:54:9-57:20
+	android:label
+		ADDED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:56:13-60
+	android:name
+		ADDED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:55:13-45
+activity#com.example.gomovie.SeatTable
+ADDED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:58:9-61:20
+	android:label
+		ADDED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:60:13-62
+	android:name
+		ADDED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:59:13-38
+activity#com.example.gomovie.SeatTableActivity
+ADDED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:62:9-65:20
+	android:label
+		ADDED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:64:13-70
+	android:name
+		ADDED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:63:13-46
+activity#com.example.gomovie.IntroductionActivity
+ADDED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:66:9-69:20
+	android:label
+		ADDED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:68:13-64
+	android:name
+		ADDED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:67:13-49
+activity#com.example.gomovie.AboutActivity
+ADDED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:70:9-73:20
+	android:label
+		ADDED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:72:13-57
+	android:name
+		ADDED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:71:13-42
+activity#com.example.gomovie.UsedActivity
+ADDED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:74:9-77:20
+	android:label
+		ADDED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:76:13-56
+	android:name
+		ADDED from D:\yuan\GoMovie1\app\src\main\AndroidManifest.xml:75:13-41

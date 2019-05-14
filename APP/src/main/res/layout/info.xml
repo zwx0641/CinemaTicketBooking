@@ -1,0 +1,276 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f3f1eb"
+    android:orientation="vertical"
+    tools:context="com.example.gomovie.InfoActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="#cfa49a"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/infoback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:gravity="center"
+            android:text="Seat Reaservation"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" >
+        </TextView>
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="#eee6df"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/movieicon"
+                    android:layout_width="128dp"
+                    android:layout_height="160dp" />
+
+                <LinearLayout
+                    android:layout_width="162dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1.2"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="25dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:text="Name："
+                            android:textSize="18dp" />
+
+                        <TextView
+                            android:id="@+id/showmoviename"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:text=""
+                            android:textSize="18dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="25dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:text="Type："
+                            android:textSize="18dp" />
+
+                        <TextView
+                            android:id="@+id/showmovietype"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:text=""
+                            android:textSize="18dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="25dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Date："
+                            android:textSize="18dp" />
+
+                        <TextView
+                            android:id="@+id/showmoviedate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:text=""
+                            android:textSize="18dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="25dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:text="Director："
+                            android:textSize="18dp" />
+
+                        <TextView
+                            android:id="@+id/showmoviedirector"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:text=""
+                            android:textSize="18dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="25dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:text="Actor："
+                            android:textSize="18dp" />
+
+                        <TextView
+                            android:id="@+id/showmovieactors"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:text=""
+                            android:textSize="18dp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.4"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/briefintro"
+                        android:layout_width="wrap_content"
+                        android:layout_height="23dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="Description："
+                        android:textSize="18dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/showmoviedesc"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:maxLines="2"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:scrollbars="vertical"
+                        android:singleLine="false"
+                        android:text=""
+                        android:textSize="15dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:layout_weight="0.5"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/spread"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="end"
+                        android:gravity="center"
+                        android:text="View All"
+                        android:textColor="#cfa49a"
+                        android:textSize="15dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:background="#FFFFFF">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text=" Date："
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/buydate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:hint="Choose a date for your seat→ "
+                    android:textSize="14dp" />
+
+                <ImageButton
+                    android:id="@+id/calendar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/calendar" />
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/infolistview"
+                android:layout_width="match_parent"
+                android:background="#FFFFFF"
+                android:textSize="18px"
+                android:layout_height="300dp"></ListView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

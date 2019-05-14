@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f3f1eb"
+    android:orientation="vertical"
+    tools:context="com.example.gomovie.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/signin2"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/backtomy"
+            android:layout_width="44dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="85dp">
+
+            <EditText
+                android:id="@+id/number"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:drawableStart="@drawable/loginicon"
+                android:hint=" username："
+                android:textColorHint="#696f6c"
+                android:textSize="18sp" />
+
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/number"
+                android:layout_gravity="center"
+                android:drawableStart="@drawable/passwordicon"
+                android:hint=" password："
+                android:inputType="textPassword"
+                android:textColorHint="#696f6c"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/remember"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="remember me"
+                android:textColor="#696f6c"/>
+
+            <CheckBox
+                android:id="@+id/autologin"
+                android:layout_gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="auto login"
+                android:textColor="#696f6c"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/loginbtn"
+            android:layout_width="148dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_selector"
+            android:gravity="center"
+            android:text="Sign in"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/register"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#f3f1eb"
+            android:text="No account yet? Sign up"
+            android:textColor="#cfa49a"
+            android:textSize="16sp"
+            style="?android:attr/borderlessButtonStyle"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+</LinearLayout>

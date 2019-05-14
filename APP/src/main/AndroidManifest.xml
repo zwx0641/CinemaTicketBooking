@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gomovie"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+   <uses-sdk android:targetSdkVersion="21" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/lg"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity 
+            android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:label="@string/title_activity_register" >
+        </activity>
+        <activity
+            android:name=".InfoActivity"
+            android:label="@string/title_activity_info" >
+        </activity>
+        <!--
+        <activity
+            android:name=".Introduction"
+            android:label="@string/title_activity_introduction" >
+            
+        </activity>
+
+
+
+
+
+
+        -->
+        <activity
+            android:name=".UpdatepwActivity"
+            android:label="@string/title_activity_updatepw" >
+        </activity>
+        <activity
+            android:name=".SeatTable"
+            android:label="@string/title_activity_seat_table" >
+        </activity>
+        <activity
+            android:name=".SeatTableActivity"
+            android:label="@string/title_activity_main_activity_test" >
+        </activity>
+        <activity
+            android:name=".IntroductionActivity"
+            android:label="@string/title_activity_introduction" >
+        </activity>
+        <activity
+            android:name=".AboutActivity"
+            android:label="@string/title_activity_about" >
+        </activity>
+        <activity
+            android:name=".UsedActivity"
+            android:label="@string/title_activity_used" >
+        </activity>
+    </application>
+
+</manifest>

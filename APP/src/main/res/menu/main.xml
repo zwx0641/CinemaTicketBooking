@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.gomovie.MainActivity" >
+
+    <item android:id="@+id/action_search"
+        android:title="search"
+        />
+    <item android:id="@+id/action_my"
+        android:title="my"
+        />
+    <item
+        android:id="@+id/action_main"
+        android:title="main"/>
+
+</menu>

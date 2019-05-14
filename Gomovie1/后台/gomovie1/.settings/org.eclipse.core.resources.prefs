@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+encoding//src/com/gomovie/dao/impl/SeatDaoImpl.java=UTF-8
+encoding//src/com/gomovie/servlet/MovieServlet2.java=UTF-8
+encoding//src/com/gomovie/servlet/QueryServlet.java=UTF-8
+encoding//src/com/gomovie/util/DateUtils.java=UTF-8
+encoding//src/com/gomovie/util/JdbcUtil.java=UTF-8
